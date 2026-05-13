@@ -1,0 +1,12 @@
+{
+  "name": "mini-coding-agent",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "mini-coding-agent": "./bin.mjs"
+  },
+  "scripts": {
+    "start": "bun run bin.mjs",
+    "test": "bun test"
+  }
+}

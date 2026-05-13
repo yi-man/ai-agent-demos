@@ -1,0 +1,7 @@
+# mini-agent (Bun)
+mini-agent/node_modules/
+mini-agent/.env
+
+# mini-coding-agent (Bun)
+mini-coding-agent/node_modules/
+mini-coding-agent/.env
