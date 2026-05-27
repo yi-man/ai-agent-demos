@@ -1,0 +1,36 @@
+{
+  "category": "home",
+  "products": [
+    {
+      "id": "tvs85miniled",
+      "name": "小米电视S85 Mini LED",
+      "price": 6999,
+      "specs": {
+        "screen": "85英寸 Mini LED",
+        "resolution": "4K 3840x2160",
+        "refresh_rate": "144Hz",
+        "hdr": "Dolby Vision IQ / HDR10+",
+        "audio": "2x15W 杜比全景声",
+        "soc": "四核A73"
+      },
+      "features": ["Mini LED背光", "144Hz高刷", "Dolby Vision", "杜比全景声", "远场语音", "NFC一触投屏"],
+      "warranty": "3年质保",
+      "keywords": ["电视", "大屏", "Mini LED", "4K", "游戏"]
+    },
+    {
+      "id": "speakerpro",
+      "name": "小米音箱Pro",
+      "price": 399,
+      "specs": {
+        "driver": "3英寸全频扬声器",
+        "power": "20W",
+        "connectivity": "WiFi 6 + 蓝牙5.2",
+        "microphone": "6麦克风阵列",
+        "size": "118mm x 118mm x 212mm"
+      },
+      "features": ["小爱同学语音助手", "智能家居控制中心", "多房间音乐", "蓝牙网关", "儿童模式"],
+      "warranty": "1年质保",
+      "keywords": ["音箱", "智能音箱", "语音助手", "小爱同学", "智能家居"]
+    }
+  ]
+}

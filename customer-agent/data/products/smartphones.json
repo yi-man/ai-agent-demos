@@ -1,0 +1,53 @@
+{
+  "category": "smartphones",
+  "products": [
+    {
+      "id": "xiaomi15",
+      "name": "小米15",
+      "price": 3999,
+      "specs": {
+        "screen": "6.36英寸 1.5K AMOLED 120Hz",
+        "cpu": "骁龙8至尊版",
+        "ram": "12GB/16GB",
+        "storage": "256GB/512GB/1TB",
+        "camera": "5000万像素徕卡光学三摄",
+        "battery": "5400mAh"
+      },
+      "features": ["徕卡光学镜头", "IP68防水防尘", "90W有线快充", "50W无线快充", "超声波指纹"],
+      "warranty": "1年质保",
+      "keywords": ["旗舰", "拍照", "性能", "徕卡"]
+    },
+    {
+      "id": "xiaomi15pro",
+      "name": "小米15 Pro",
+      "price": 4699,
+      "specs": {
+        "screen": "6.73英寸 2K AMOLED LTPO 120Hz",
+        "cpu": "骁龙8至尊版",
+        "ram": "12GB/16GB",
+        "storage": "256GB/512GB/1TB",
+        "camera": "5000万像素徕卡专业三摄",
+        "battery": "6100mAh"
+      },
+      "features": ["徕卡专业影像", "IP68防水防尘", "90W有线快充", "50W无线快充", "超声波指纹", "大面积超声波指纹"],
+      "warranty": "1年质保",
+      "keywords": ["旗舰", "拍照", "大屏", "性能", "徕卡", "长续航"]
+    },
+    {
+      "id": "redmik80",
+      "name": "Redmi K80",
+      "price": 2399,
+      "specs": {
+        "screen": "6.67英寸 2K AMOLED 120Hz",
+        "cpu": "骁龙8 Gen 3",
+        "ram": "12GB/16GB",
+        "storage": "256GB/512GB",
+        "camera": "5000万像素OIS光学防抖三摄",
+        "battery": "6550mAh"
+      },
+      "features": ["大电池长续航", "IP68防水防尘", "90W快充", "金属中框"],
+      "warranty": "1年质保",
+      "keywords": ["性价比", "长续航", "性能", "防水"]
+    }
+  ]
+}

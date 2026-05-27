@@ -1,0 +1,38 @@
+{
+  "category": "wearables",
+  "products": [
+    {
+      "id": "miband9",
+      "name": "小米手环9",
+      "price": 249,
+      "specs": {
+        "screen": "1.62英寸 AMOLED 全面屏",
+        "resolution": "192x490",
+        "battery": "233mAh 续航约21天",
+        "waterproof": "5ATM防水",
+        "weight": "27g（含腕带）",
+        "connectivity": "蓝牙5.4"
+      },
+      "features": ["血氧检测", "心率监测", "150+运动模式", "NFC", "睡眠监测"],
+      "warranty": "1年质保",
+      "keywords": ["运动", "健康", "手环", "防水", "NFC"]
+    },
+    {
+      "id": "watchs4",
+      "name": "小米Watch S4",
+      "price": 999,
+      "specs": {
+        "screen": "1.43英寸 AMOLED",
+        "resolution": "466x466",
+        "battery": "486mAh 续航约15天",
+        "waterproof": "5ATM防水",
+        "weight": "49g（不含腕带）",
+        "connectivity": "蓝牙5.3 + 独立GPS",
+        "os": "小米自研澎湃OS"
+      },
+      "features": ["独立通话", "eSIM", "五星定位", "血氧检测", "心率监测", "150+运动模式"],
+      "warranty": "1年质保",
+      "keywords": ["手表", "通话", "GPS", "运动", "eSIM", "健康"]
+    }
+  ]
+}
