@@ -6,6 +6,7 @@ mini-agent/.env
 customer-agent/node_modules/
 customer-agent/.env
 customer-agent/data/chat.db
+customer-agent/data/*.db
 
 # mini-coding-agent (Bun)
 mini-coding-agent/node_modules/

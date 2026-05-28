@@ -1,6 +1,6 @@
 ### Project: ai-agent-demos
 
-多子目录的 AI 代理示例仓，以 **Bun + JavaScript（ESM）** 为主，收录 `mini-agent`（精简软件工程代理）与 `mini-coding-agent`（编码代理 CLI），各子项目独立依赖与配置。
+多子目录的 AI 代理示例仓，以 **Bun + JavaScript（ESM）** 为主，收录 `mini-agent`（精简软件工程代理）、`mini-coding-agent`（编码代理 CLI）与 `customer-agent`（多智能体电商客服），各子项目独立依赖与配置。
 
 ---
 
@@ -18,6 +18,8 @@
 - `cd mini-agent && bun start`：启动 **mini-agent** CLI（等价 `bun src/cli.mjs`）；`bun run demo` 可运行 `examples/run-demo.mjs`。
 - `cd mini-coding-agent && bun install && bun test`：安装依赖并运行 **mini-coding-agent** 测试。
 - `cd mini-coding-agent && bun start`：启动编码代理 CLI（`bun run bin.mjs`）。
+- `cd customer-agent && bun install && bun test`：安装依赖并运行 **customer-agent** 全部测试。
+- `cd customer-agent && bun start`：启动 **customer-agent** 交互式 CLI（`bun src/index.mjs`）。
 
 ---
 
@@ -48,10 +50,19 @@ ai-agent-demos/
 │   │   ├── run/
 │   │   └── utils/
 │   └── tests/
-└── mini-coding-agent/     # 编码代理（包名 mini-coding-agent）
+├── mini-coding-agent/     # 编码代理（包名 mini-coding-agent）
+│   ├── package.json
+│   ├── bin.mjs
+│   ├── .env.example
+│   ├── src/
+│   └── tests/
+└── customer-agent/        # 多智能体电商客服
     ├── package.json
-    ├── bin.mjs
+    ├── bun.lock
     ├── .env.example
+    ├── AGENTS.md          # 子项目规范（CLAUDE.md → AGENTS.md）
+    ├── data/
+    ├── examples/
     ├── src/
     └── tests/
 ```
